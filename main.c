@@ -9,11 +9,6 @@
 #define round(value) (value<(int)value+0.5?(int)value:(int)value+1)
 #define floor(value) ((int)value)
 
-typedef struct Vector {
-    double dx;
-    double dy;
-} Vector;
-
 typedef struct Color {
     int r;
     int g;
