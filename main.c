@@ -55,8 +55,6 @@ double map(int number, int left_range, int right_range, int left_bound, int righ
     return (number-left_range)/(double)(right_range-left_range) * (right_bound-left_bound) + left_bound;
 }
 
-// This part of code was copied from https://gist.github.com/nowl/828013
-
 static int SEED = 0;
 
 static int hash[] = {208,34,231,213,32,248,233,56,161,78,24,140,71,48,140,254,245,255,247,247,40,
